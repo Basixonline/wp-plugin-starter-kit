@@ -1,0 +1,21 @@
+div#widgets-left div.widgets-holder-wrap div.leftDrag {position: absolute; z-index: 999}
+div#widgets-left div.widgets-holder-wrap div.leftDrag.dragging { border: 1px dotted #333; }
+div#widgets-left div.widgets-holder-wrap div.leftDrag a {color: #000; }
+div#widgets-left div.widgets-holder-wrap div.leftDrag a:hover { color: red;}
+div.removeObj { display:none; position: relative;}
+div.removeObj a {position: absolute;background: url(../images/icons/close.png) no-repeat top; width: 14px; height: 22px;right: 0;z-index:9999999999999;}
+div.widget-liquid-right.modules { right: 10px !important; z-index:50; position:relative;}
+div.grabHandle{ display:none; position: absolute;background: url(../images/icons/grab.png) no-repeat top;width: 30px;height: 24px;left: 0;top: 0;z-index:999;	 cursor: move;}
+div.ui-resizable-handle{ display:none; }
+div.cover {width:100%;height:100%;z-index:10;position:absolute;top: 0;left:0;}
+div.iz-droppable.over { box-shadow: 0 0 5px #000 }
+.widget-borders{border:1px dotted #c7c7c7;}
+
+input.izc_save_panel {
+  position:absolute;
+  right: 0;
+  top: -41px;
+  cursor: pointer;
+  height:34px;
+  background-color:#f1f1f1 !important;
+}
